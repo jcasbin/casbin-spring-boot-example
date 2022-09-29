@@ -1,0 +1,21 @@
+plugins {
+  id 'org.springframework.boot' version '2.7.4'
+  id 'io.spring.dependency-management' version '1.0.14.RELEASE'
+  id 'java'
+}
+
+group = 'org.casbin'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = JavaVersion.VERSION_17
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'javax.inject:javax.inject:1'
+  implementation 'org.casbin:casbin-spring-boot-starter:0.4.4'
+  implementation 'org.springframework.boot:spring-boot-starter-security'
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  runtimeOnly 'org.springframework.boot:spring-boot-devtools'
+}
