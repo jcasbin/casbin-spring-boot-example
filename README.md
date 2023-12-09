@@ -2,6 +2,12 @@
 
 A simple example of [casbin-spring-boot-starter](https://github.com/jcasbin/casbin-spring-boot-starter).
 
+## Requirement
+
+JDK 17+
+
+## Usage
+
 Run with:
 
 ```shell
