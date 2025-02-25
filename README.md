@@ -11,18 +11,18 @@ JDK 17+
 Run with:
 
 ```shell
-./gradlew bootRun
+mvn spring-boot:run
 ```
 
 Which will start a server at `http://localhost:8080` with following api:
 
 - `GET /auth/login`: login to system.
-  
-  Request params: 
+
+  Request params:
 
   - `username`: `admin` or `user`
   - `password`: `pwd`
-  
+
   Example: `GET /auth/login?username=admin&password=pwd`
 - `GET /auth/logout`: logout the system.
 - `GET /data/admins/all`: available when login with `admin` account.
