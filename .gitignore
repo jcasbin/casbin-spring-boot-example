@@ -35,3 +35,14 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### System files ###
+.DS_Store
+Thumbs.db
+
+# temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties

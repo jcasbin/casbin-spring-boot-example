@@ -8,13 +8,7 @@ JDK 17+
 
 ## Usage
 
-Run with:
-
-```shell
-./gradlew bootRun
-```
-
-Which will start a server at `http://localhost:8080` with following api:
+The project will start a server by default at `http://localhost:8080` with following api:
 
 - `GET /auth/login`: login to system.
   
